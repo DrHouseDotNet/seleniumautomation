@@ -1,0 +1,4 @@
+*.dll
+UnitTestProject/packages
+UnitTestProject/UnitTestProject/bin
+UnitTestProject/UnitTestProject/obj
