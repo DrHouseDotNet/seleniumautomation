@@ -26,12 +26,12 @@ namespace UnitTestProject.Tests
         public void SuccessNewRegister()
         {
             var name = "Nicolas Takashi";
-            var address = "Dorivaldo Francico Lória";
+            var address = "Rua Para";
             var state = "São Paulo";
-            var city = "Praia Grande";
-            var zip = "11750-320";
-            var phone = "+55 013 9.8833-0107";
-            var email = "nicolas.tcs@hotmail.com";
+            var city = "Santos";
+            var zip = "11750-415";
+            var phone = "+55 013 9.9789-321";
+            var email = "nicolas@hotmail.com";
             var age = 21;
 
             var success = _basicFormPage.CreateNewRegister(name, address, state, city, zip, phone, email, age, "Male", "5", "Small");
